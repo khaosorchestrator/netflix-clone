@@ -1,0 +1,32 @@
+:root {
+  --red: #E50914;
+  --black: #141414;/*#333;*/
+  --alber: #242927;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+	background: var(--black);
+	color: white;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
+.login-container {
+	background: linear-gradient(rgba(0, 0,0, .50), rgba(0, 0, 0, .50)100%), url('../img/login.jpg');
+	height: 520px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.login-button {
+	margin-top: 10px;
+	margin-right: 10px;
+}
